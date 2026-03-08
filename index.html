@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Typing Speed Test</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Typing Speed Test</h1>
+        
+        <div id="controls">
+            <div id="timing-options">
+                <h3>Select Test Duration:</h3>
+                <button id="time-30" class="time-btn active">30 seconds</button>
+                <button id="time-60" class="time-btn">1 minute</button>
+                <button id="time-120" class="time-btn">2 minutes</button>
+            </div>
+            
+            <button id="start-btn">Start Test</button>
+            <button id="stop-btn" style="display: none;">Stop Test</button>
+        </div>
+        
+        <div id="timer-display">Time: <span id="timer">30</span>s</div>
+        
+        <div id="test-area" style="display: none;">
+            <p id="sentence"></p>
+            <textarea id="input" placeholder="Start typing here..." disabled></textarea>
+        </div>
+        
+        <div id="stats">
+            <p id="result"></p>
+            <p id="accuracy"></p>
+            <p id="words-typed"></p>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
