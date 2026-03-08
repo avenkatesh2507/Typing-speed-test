@@ -1,6 +1,7 @@
 # Typing Speed Test 
 
 A clean and interactive web-based typing speed test application that helps users measure and improve their typing skills.
+https://typing-speed-test-murex.vercel.app/
 
 ##  Features
 
